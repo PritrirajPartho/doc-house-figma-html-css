@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    font-family: "Source Sans 3", sans-serif;
+}
+.header{
+    background-image: url('/images/background.png');
+    background-size: cover;
+    width: 100%;
+}
+.logo-division{
+    display: flex;
+    justify-content: start; 
+    margin-left: 150px;
+    padding-top: 50px;
+}
+.help-center-div h1{
+    width: 100%;
+    margin-left: 150px;
+    padding-top: 150px;
+    font-weight: 600;
+    font-size: 70px;
+    color: #F3F3F3;
+}
+.help-center-div p{
+    width: 100%;
+    color:#F3F3F3 ;
+    margin-left: 150px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 18px;
+    Line-height:25.63px;
+}
+.help-center-div button{
+width: 150px;
+height: 64px;
+margin-left: 150px;
+margin-bottom: 100px;
+background-color: #F7A582;
+border-radius: 10px;
+border: none;
+font-weight: 700;
+font-size: 20px;
+line-height: 28px;
+color: #FFFFFF;
+}
+
+/*start care section is here*/
+.care-section{
+    display: flex;
+}
+.care-doctors{
+width: 100%;
+display: flex;
+position: relative;
+justify-content: left;
+/* background: url('images/beautiful-doctor-pointing-fingers.png');
+background-position: left;
+background-repeat: no-repeat; */
+}
+.care-1{
+position: absolute;
+width: 260.18px;
+height: 260.18px;
+left: 150px;
+top: 150px;
+}
+.care-2{
+    width: 260.18px;
+    height: 260.18px;
+    position: absolute;
+    Top:260.86px;
+    Left:281.12px;
+}
+.care-3{
+    width: 260.18px;
+    height: 260.18px;
+    position: absolute;
+    left: 420px;
+    bottom: 249px;
+}
+/* section two model doctor and service here */
+.scetion-two{
+    margin-top: 120px;
+    margin-left: 150px;
+    display: flex;
+    justify-content: center;
+}
+.model-doctor img{
+    width:558px;
+    height:1047px;
+    margin-right: 15px;
+}
+.our-services{
+font-weight: 700;
+font-size: 40px;
+line-height: 57px;
+color: #0A0808;
+margin: 5px;
+margin-bottom: 30px;
+}
+.sec-two-buttons{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    Width:558px;
+    Height:80px;
+    margin-bottom: 40px;
+    background: #FFFFFF;
+    grid-gap: 0px;
+    /* Dark 06 */
+    border: 1px solid #E6E6E6;
+    border-radius: 10px;
+}
+.sec-two-buttons button{
+border: none;
+font-family: 'Source Sans 3';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 26px;
+text-align: center;
+color: #3B3A3A;
+}
+#cavity-btn{
+    width: 170px;
+    height: 80px;
+    background: #F7A582;
+    border-radius: 10px;
+}
