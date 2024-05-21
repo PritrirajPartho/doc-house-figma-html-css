@@ -5,6 +5,10 @@
 .checked {
     color: orange;
 }
+::placeholder {
+    color: #FFFFFF;
+    opacity: 1; 
+}
 .header{
     background-image: url('/images/background.png');
     background-size: cover;
@@ -216,4 +220,50 @@ margin-bottom: 30px;
     font-weight:700;
     font-size:20px;
     Line-height :28.48px;
+}
+/* section six is star here- contact with us */
+.contact-section{
+    color: #FFFFFF;
+    background-color: #07332F;
+    Width:930px; 
+    Height:280px;
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    padding: 100px;
+    display: flex;
+}
+.input-group{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-left: 20px;
+}
+.input-group div input{
+    width: 267px;
+    height: 64px;
+    color: #FFFFFF;
+    border: none;
+    background-color:#07423d;
+    text-align: left;
+    padding-left: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.book-now-btn{
+    margin-top: 10px;
+    width: 580px;
+    height: 56px;
+    background: #F7A582;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-left: 15px;
 }
