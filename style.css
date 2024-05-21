@@ -2,11 +2,15 @@
     margin: 0;
     font-family: "Source Sans 3", sans-serif;
 }
+.checked {
+    color: orange;
+}
 .header{
     background-image: url('/images/background.png');
     background-size: cover;
     width: 100%;
 }
+
 .logo-division{
     display: flex;
     justify-content: start; 
@@ -32,17 +36,17 @@
     Line-height:25.63px;
 }
 .help-center-div button{
-width: 150px;
-height: 64px;
-margin-left: 150px;
-margin-bottom: 100px;
-background-color: #F7A582;
-border-radius: 10px;
-border: none;
-font-weight: 700;
-font-size: 20px;
-line-height: 28px;
-color: #FFFFFF;
+    width: 150px;
+    height: 64px;
+    margin-left: 150px;
+    margin-bottom: 100px;
+    background-color: #F7A582;
+    border-radius: 10px;
+    border: none;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
 }
 
 /*start care section is here*/
@@ -50,20 +54,20 @@ color: #FFFFFF;
     display: flex;
 }
 .care-doctors{
-width: 100%;
-display: flex;
-position: relative;
-justify-content: left;
-/* background: url('images/beautiful-doctor-pointing-fingers.png');
-background-position: left;
-background-repeat: no-repeat; */
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: left;
+    /* background: url('images/beautiful-doctor-pointing-fingers.png');
+    background-position: left;
+    background-repeat: no-repeat; */
 }
 .care-1{
-position: absolute;
-width: 260.18px;
-height: 260.18px;
-left: 150px;
-top: 150px;
+    position: absolute;
+    width: 260.18px;
+    height: 260.18px;
+    left: 150px;
+    top: 150px;
 }
 .care-2{
     width: 260.18px;
@@ -81,10 +85,10 @@ top: 150px;
 }
 /* section two model doctor and service here */
 .scetion-two{
-    margin-top: 120px;
     margin-left: 150px;
+    margin-top: 120px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 .model-doctor img{
     width:558px;
@@ -112,18 +116,104 @@ margin-bottom: 30px;
     border-radius: 10px;
 }
 .sec-two-buttons button{
-border: none;
-font-family: 'Source Sans 3';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 26px;
-text-align: center;
-color: #3B3A3A;
+    border: none;
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #3B3A3A;
 }
 #cavity-btn{
     width: 170px;
     height: 80px;
     background: #F7A582;
     border-radius: 10px;
+}
+/* section three time schedule is below */
+.info-sectiond{
+    display: flex;
+    justify-content: left;
+    margin-left: 110px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 364px;
+    height: 202px;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+.info div img{
+    padding-top: 0px;
+    padding-bottom: 45px;
+}
+/*sections three patient satisfaction*/
+.client-satisfaction-section{
+    display: flex;
+    margin-left: 150px;
+}
+.patient{
+    Width:450px;
+    Height:185px;
+    border: 1px solid #E6E6E6;
+    padding: 50px;
+    color: #6C6B6B;
+    position: relative;
+    margin-bottom: 100px;
+    border-radius: 10px;
+}
+.personal-info{
+    display: flex;
+    font-weight: 400;
+}
+.overlay-icon-img{
+  position: absolute;
+  top: 112px;
+  left: -25px;
+}
+.overlay-icon-img-2{
+  position: absolute;
+  top: 112px;
+  right: -25px;
+}
+/* section four our expert doctors */
+.consultant-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    grid-gap: 0;
+    margin-left: 134px;
+    margin-right: 53px;
+    margin-bottom: 50px;
+}
+.consultant{
+    width: 299px;
+    height: 559px;
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-top: 17px;
+    padding-right: 40px;
+}
+.consultant-face img{
+   width: 324px;
+   height: 200px;
+   margin-bottom: 20px;
+}
+.consultant button{
+    width: 324px;
+    height: 56px;
+    color: #F7A582;
+    border: 1px solid #F7A582;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    font-weight:700;
+    font-size:20px;
+    Line-height :28.48px;
 }
