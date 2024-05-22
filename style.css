@@ -21,6 +21,10 @@
     margin-left: 150px;
     padding-top: 50px;
 }
+.logo-division h1{
+    margin-top: 16px;
+    margin-left: 10px;
+}
 .help-center-div h1{
     width: 100%;
     margin-left: 150px;
@@ -30,7 +34,7 @@
     color: #F3F3F3;
 }
 .help-center-div p{
-    width: 100%;
+    width: 527px;
     color:#F3F3F3 ;
     margin-left: 150px;
     margin-top: 20px;
@@ -53,7 +57,6 @@
     color: #FFFFFF;
 }
 
-/*start care section is here*/
 .care-section{
     display: flex;
 }
@@ -62,6 +65,7 @@
     display: flex;
     position: relative;
     justify-content: left;
+    margin-right: 100px;
     /* background: url('images/beautiful-doctor-pointing-fingers.png');
     background-position: left;
     background-repeat: no-repeat; */
@@ -70,7 +74,7 @@
     position: absolute;
     width: 260.18px;
     height: 260.18px;
-    left: 150px;
+    left: 50px;
     top: 150px;
     z-index: 1;
 }
@@ -79,7 +83,7 @@
     height: 260.18px;
     position: absolute;
     Top:260.86px;
-    Left:281.12px;
+    Left:181.12px;
     z-index: 2;
 
 }
@@ -87,7 +91,7 @@
     width: 260.18px;
     height: 260.18px;
     position: absolute;
-    left: 420px;
+    left: 320px;
     bottom: 249px;
     z-index: 3;
 }
@@ -100,7 +104,7 @@
 }
 .model-doctor img{
     width:558px;
-    height:1047px;
+    height:1053px;
     margin-right: 15px;
 }
 .our-services{
@@ -108,18 +112,27 @@
     font-size: 40px;
     line-height: 57px;
     color: #0A0808;
-    margin: 5px;
+    margin-top: 10px;
     margin-bottom: 30px;
+}
+.service-paragraph{
+    width: 438px;
+    height: 100px;
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #3B3A3A;
 }
 .sec-two-buttons{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    Width:558px;
+    Width:555px;
     Height:80px;
     margin-bottom: 40px;
     background: #FFFFFF;
     grid-gap: 0px;
-    /* Dark 06 */
     border: 1px solid #E6E6E6;
     border-radius: 10px;
 }
@@ -143,13 +156,41 @@
     background: #F7A582;
     border-radius: 10px;
 }
+.gastrology-div h1{
+    width: 366px;
+    height: 43px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 43px;
+    color: #0A0808;
+    margin: 20px 0 20px 0;
+}
+.gastrology-div p{
+    width: 558px;
+    height: 104px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #3B3A3A;
+}
+.gastrology-div button{
+    width: 160px;
+    height: 56px;
+    font-size: 20px;
+    line-height: 28.48px;
+    font-weight:700; 
+    border: 1px solid #F7A582;
+    color: #F7A582; 
+    background: white;
+    border-radius: 10px;
+    }
 /* section three time schedule is below */
 .info-section{
     display: flex;
-    justify-content: left;
-    margin-left: 110px;
-    margin-top: 150px;
-    margin-bottom: 100px;
+    justify-content: center;
+    margin-left: 83px;
+    margin-top: 100px;
+    margin-bottom: 80px;
 }
 .info{
     display: flex;
@@ -159,15 +200,19 @@
     height: 202px;
     border-radius: 10px;
     color: #FFFFFF;
+    margin-right: 10px;
+    margin-left: 11px;
 }
 .info div img{
     padding-top: 0px;
     padding-bottom: 45px;
 }
-/*sections three patient satisfaction*/
+/*sections four patient satisfaction*/
 .client-satisfaction-section{
     display: flex;
-    margin-left: 150px;
+    justify-content: center;
+    margin-left: 60px;
+    margin-right: 5px;
 }
 .patient{
     Width:450px;
@@ -176,8 +221,9 @@
     padding: 50px;
     color: #6C6B6B;
     position: relative;
-    margin-bottom: 100px;
+    margin-bottom: 65px;
     border-radius: 10px;
+    margin-left: 30px;
 }
 .personal-info{
     display: flex;
@@ -198,10 +244,8 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
-    grid-gap: 0;
-    margin-left: 134px;
-    margin-right: 53px;
     margin-bottom: 50px;
+    margin: 0 52px 0 133px;
 }
 .consultant{
     width: 299px;
@@ -212,6 +256,8 @@
     padding-left: 15px;
     padding-top: 17px;
     padding-right: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .consultant-face img{
    width: 324px;
@@ -242,6 +288,25 @@
     padding: 100px;
     display: flex;
 }
+.contact-withus-div h1{
+    width: 280px;
+    height: 57px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    color: #FFFFFF;
+}
+.contact-paragraph{
+    width: 361px;
+    height: 104px;
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin: 20px 0 20px 0;
+}
 .input-group{
     display: grid;
     grid-template-rows: 1fr;
@@ -254,7 +319,7 @@
     height: 64px;
     color: #FFFFFF;
     border: none;
-    background-color:#07423d;
+    background-color:rgba(255, 255, 255, 0.05);
     text-align: left;
     padding-left: 15px;
     border-radius: 10px;
@@ -262,7 +327,7 @@
 }
 .book-now-btn{
     margin-top: 10px;
-    width: 580px;
+    width: 576px;
     height: 56px;
     background: #F7A582;
     border: none;
@@ -273,17 +338,20 @@
     font-size: 20px;
     line-height: 28px;
     color: #FFFFFF;
-    margin-left: 15px;
+    margin-left: 21px;
 }
 /*section seven or footer part */
-.footer{
-    padding-left: 50px;
+.footer-section{
+    background-color: #F3F3F3;
+    height: 562px;
     margin-top: 100px;
+}
+.footer{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-items: center;
-    background-color: #F3F3F3;
-    padding: 100px;
+    padding: 100px 100px 0 100px;
+    margin: 50px 0px 50px 50px;
 }
 
 .footer h1{
@@ -347,5 +415,20 @@
     color: #3B3A3A;
     margin-bottom: 10px;
 }
+.divider{
+   border-bottom: 1px solid rgba(206, 206, 206, 1);
+   width: 1050px;
+   margin: auto;
+}
+.copyright{
+    height: 26px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #6C6B6B;
+    text-align: center;
+    margin-top: 50px;
+}
+
 
 
