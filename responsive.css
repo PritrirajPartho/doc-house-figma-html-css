@@ -1,0 +1,204 @@
+/* Here is responsive template design-viewport-ipone 13 pro */
+@media only screen and (max-width: 450px) {
+    .header{
+        background-image: url('/images/background.png');
+        background-size: cover;
+        width: 100%;
+        height: 704px;
+    }
+    .logo-division{
+        display: flex;
+        justify-content: start;
+        margin-left: 20px; 
+    }
+    .logo-division img{
+        width: 35.44px;
+        height: 35.46px;
+    }
+    .logo-division h1{
+        width: 93px;
+        height: 29px;
+        font-family: 'Source Sans 3';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20.0513px;
+        color: #FFFFFF;
+        padding-top: 2px;
+        padding-bottom: 20px;
+        margin: 0px 0 0 10px;
+    }
+    .help-center-div h1{
+        text-align: center;
+        padding-top: 20px;
+        font-weight: 600;
+        font-size: 30px;
+        color: #F3F3F3;
+        margin-left: 0px;
+    }
+    .help-center-div p{
+        width: 100%;
+        color:#F3F3F3 ;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-weight: 600;
+        font-size: 12px;
+        Line-height:25.63px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .help-center-div button{
+        width: 150px;
+        height: 64px;
+        background-color: #F7A582;
+        border-radius: 10px;
+        border: none;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+        color: #FFFFFF;
+        position: absolute;
+        left: 10%;
+        margin-top: 30px;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+    .care-section{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    .care-doctors{
+        position: relative;
+        margin: 0;
+        /* background: url('images/beautiful-doctor-pointing-fingers.png');
+        background-position: left;
+        background-repeat: no-repeat; */
+    }
+    .care-1{
+        position: absolute;
+        width: 149.87px;
+        height: 149.87px;
+        left: 52.72px;
+        top: 140px;
+        z-index: 1;
+    }
+    .care-2{
+        position: absolute;
+        width: 149.87px;
+        height: 149.87px;
+        left: 127.5px;
+        top: 202px;
+        z-index: 2;
+    }
+    .care-3{
+        position: absolute;
+        width: 149.87px;
+        height: 149.87px;
+        left: 205.13px;
+        top: 110px;
+        z-index: 3;
+     }
+     /*section two model doctor */
+     .scetion-two{
+        margin-left: 20px;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+    .model-doctor img{
+        width:335px;
+        height:633px;
+        margin-left: 5px;
+    }
+    .our-services{
+        height: 43px;
+        font-family: 'Source Sans 3';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 43px;
+        text-align: center;
+        color: #0A0808;
+        margin-top: 20px;
+    }
+    .service-paragraph{
+        width: 293px;
+        height: 400px;
+        font-family: 'Source Sans 3';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        color: #3B3A3A;
+        margin-left:25px;
+    }
+    .teeth-img-div img{
+        width: 335px;
+        height: 210px;
+        margin-left: 4px;
+    }
+    .gastrology-div h1{
+        width: 277px;
+        height: 86px;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 43px;
+        text-align: center;
+        color: #0A0808;
+        margin-left: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .gastrology-div p{
+        width: 335px;
+        height: 156px;
+        font-family: 'Source Sans 3';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 26px;
+        text-align: center;
+        color: #3B3A3A;
+        margin-left: 0.4rem;
+    }
+    .gastrology-div button{
+        width: 110px;
+        height: 28px;
+        font-family: 'Source Sans 3';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+        color: #F7A582;
+        position: absolute;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+/* sections four time schedule and info */
+    .info-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        margin-left: 20px;
+        margin-top: 70px;
+    }
+    .info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #FFFFFF;
+        width: 335px;
+        height: 161px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .info div img{
+        padding-top: 0px;
+        padding-bottom: 45px;
+    }
+}

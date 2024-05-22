@@ -72,6 +72,7 @@
     height: 260.18px;
     left: 150px;
     top: 150px;
+    z-index: 1;
 }
 .care-2{
     width: 260.18px;
@@ -79,6 +80,8 @@
     position: absolute;
     Top:260.86px;
     Left:281.12px;
+    z-index: 2;
+
 }
 .care-3{
     width: 260.18px;
@@ -86,6 +89,7 @@
     position: absolute;
     left: 420px;
     bottom: 249px;
+    z-index: 3;
 }
 /* section two model doctor and service here */
 .scetion-two{
@@ -118,6 +122,10 @@
     /* Dark 06 */
     border: 1px solid #E6E6E6;
     border-radius: 10px;
+}
+.teeth-img-div img{
+    width: 558px;
+    height: 335px;
 }
 .sec-two-buttons button{
     border: none;
@@ -339,3 +347,5 @@
     color: #3B3A3A;
     margin-bottom: 10px;
 }
+
+
