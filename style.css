@@ -188,9 +188,10 @@
 .info-section{
     display: flex;
     justify-content: center;
-    margin-left: 83px;
     margin-top: 100px;
-    margin-bottom: 80px;
+    margin-bottom: 76px;
+    margin-left: 150px;
+    margin-right: 84px;
 }
 .info{
     display: flex;
@@ -200,8 +201,17 @@
     height: 202px;
     border-radius: 10px;
     color: #FFFFFF;
-    margin-right: 10px;
-    margin-left: 11px;
+}
+.info-middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 364px;
+    height: 202px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    margin-right: 22px;
+    margin-left: 22px;   
 }
 .info div img{
     padding-top: 0px;
@@ -211,7 +221,7 @@
 .client-satisfaction-section{
     display: flex;
     justify-content: center;
-    margin-left: 60px;
+    margin-left: 44px;
     margin-right: 5px;
 }
 .patient{
@@ -244,8 +254,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
-    margin-bottom: 50px;
-    margin: 0 52px 0 133px;
+    padding: 0 67px 0 133px;
 }
 .consultant{
     width: 299px;
